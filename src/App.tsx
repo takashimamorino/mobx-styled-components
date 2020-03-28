@@ -1,7 +1,9 @@
 import React from 'react'
 
+import { AppTitle } from './components/Title'
+
 function App() {
-  return <h2>hello</h2>
+  return <AppTitle />
 }
 
 export default App

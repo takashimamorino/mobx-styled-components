@@ -6,6 +6,7 @@
       "jsx": true
     }
   },
+  "parser": "babel-eslint",
   "rules": {
     "no-var": "error",
     "no-console": "error"
