@@ -5,8 +5,10 @@ type Props = {
   count: number
 }
 
-const Style = styled.h2`
-  font-size: 4.8rem;
-`
+export const Count: FC<Props> = ({ count }) => {
+  const Style = styled.h2`
+    font-size: 4.8rem;
+  `
 
-export const Count: FC<Props> = ({ count }) => <Style>{count}</Style>
+  return <Style>{count}</Style>
+}
