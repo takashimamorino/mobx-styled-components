@@ -3,7 +3,7 @@ import React from 'react'
 import { AppTitle } from '.'
 
 export default {
-  title: 'Title',
+  title: 'Hoge',
   component: AppTitle
 }
 

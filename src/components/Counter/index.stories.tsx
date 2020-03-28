@@ -3,7 +3,7 @@ import React from 'react'
 import { Counter } from '.'
 
 export default {
-  title: 'Counter',
+  title: 'Hoge',
   component: Counter
 }
 
